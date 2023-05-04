@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function TodoCounter() {
+function TodoCounter({ totalTodos, completedTodos }) {
   return (
-    <div>Tienes 3 de 5 tareas realizadas!</div>
-  )
+    <div>
+      Tienes {completedTodos} de {totalTodos} tareas realizadas!
+    </div>
+  );
 }
 
-export {TodoCounter} 
+export { TodoCounter };

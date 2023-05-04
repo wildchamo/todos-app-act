@@ -1,9 +1,9 @@
 import React from 'react'
 
-function TodoList(props) {
+function TodoList({children}) {
   return (
     <div>
-        {props.children}
+        {children}
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function TodoItem() {
+function TodoItem({text, completed}) {
   return (
-    <div>TodoItem</div>
+    <div>{text}</div>
   )
 }
 
